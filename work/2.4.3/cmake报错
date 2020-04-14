@@ -1,0 +1,12 @@
+===没有链接库===
+
+CMakeFiles/useHello.dir/useHello.cpp.o：在函数‘main’中：
+useHello.cpp:(.text+0x10)：对‘printHello()’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/useHello.dir/build.make:94: recipe for target 'useHello' failed
+make[2]: *** [useHello] Error 1
+CMakeFiles/Makefile2:141: recipe for target 'CMakeFiles/useHello.dir/all' failed
+make[1]: *** [CMakeFiles/useHello.dir/all] Error 2
+Makefile:83: recipe for target 'all' failed
+make: *** [all] Error 2
+
